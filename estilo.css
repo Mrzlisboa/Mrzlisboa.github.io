@@ -1,0 +1,321 @@
+
+
+@import url('https://fonts.googleapis.com/css2? family= Macondo & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#7a665d, #DDD6CE);
+    background-repeat: no-repeat;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+.imagem img{
+    border-radius: 200px;
+    margin-top: 30px;
+}
+.name{ 
+    margin: 10px;
+    font-size: 32px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    color: #554944;
+    font-family: 'Pixelify Sans', cursive;
+}
+.icon, .email{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    margin: 3px;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+    font-family: 'Macondo', cursive;
+}
+.formulario{
+    cursor: pointer;
+}
+
+.formulario i{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 30px;
+    color: rgba(323,202,179);
+    background-color: rgb(202, 176, 198);
+}
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+
+}
+.icon i, .email i{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: rgb(202, 176, 198);
+    color: rgba(323,202,179);
+}
+.icon span a{
+    list-style: none;
+    float: right;
+    margin-right: 23px;
+    font-weight: 100;
+    font-size: 17;
+    line-height: 35px;
+    color: rgba(323,202,179);;
+}
+a:link{
+    text-decoration: none;
+}
+.icon:hover{
+    width: 125px;
+    background-color: rgb(167, 150, 143);
+    border-radius: 20px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border-radius: 24px;
+    font-size: 16px;
+    margin-top: 35px;
+    width: 500px;
+    height: 150px;
+    color: rgb(300,250,227);
+    background: rgb(202, 183, 176);
+    box-shadow: 0 3px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-family: 'Macondo', cursive;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    font-weight: 600;
+    color: #7a665d;
+    font-family: 'Pixelify Sans', cursive;
+}
+.langs{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.langs img{
+    display: flex;
+    justify-content: center;
+    border-radius: 200px;
+    width: 170px;
+    margin: 5px;
+    background: rgb(202, 183, 176);
+    color: rgba (202, 183, 176);
+    box-shadow: 2px 2px 2px rgba(323,202,179);
+}
+.projetos{
+    margin-top: 40px;
+    flex-direction: column;
+    font-family: 'Macondo', cursive;
+}
+.item{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    width: 570px;
+    height: 60px;
+    margin-bottom: 7px;
+    border-radius: 50px;
+    border: 1px solid rgba(323,202,179);
+    color: rgb(300,250,227);
+    background: rgb(202, 183, 176);
+    box-shadow: 0 5px 5px rgba(0,0,0,.1);
+    cursor: pointer;
+}
+.item:hover{
+    background-color: #aa9390;
+    transition: 0.2s;
+}
+.footer{
+    font-size: 37px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 50px;
+    color: #7a665d;
+    font-family: 'Pixelify Sans', cursive;
+}
+#img{
+    padding: 1rem;
+    margin: auto;
+    display: none;
+}
+#img.active{
+    display: block;
+}
+#form.active{
+    display: block;
+}
+
+.rodape{
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border-radius: 20px;
+    font-size: 13px;
+    margin-top: 35px;
+    text-decoration: none;
+    color:#554944;
+    background: rgb(202, 183, 176);
+    box-shadow: 0 3px rgba(0,0,0,.1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #554944;
+    margin-left: 200px;
+}
+.grupo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(202, 183, 176);
+    margin-left: 40px;
+    justify-content: center;
+}
+fieldset{
+    border: 0;
+}
+input, textarea, button{
+    border-radius: 5px
+}
+.campo{
+    margin-bottom: 1em;
+}
+.campo label{
+    margin-bottom: 0.2em;
+    font-display: block;
+}
+.botao{
+    font-size: 1,2em;
+    background: #b37e77;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);
+    text-shadow: rgba(0,0,0,.3);
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.botao:hover{
+    background: #ffc5bb;
+    box-shadow: inset 2px 2px 2px rgba(323,202,179);
+    text-shadow: nome;
+}
+
+@media(max-width:500px) {
+    .imagem img{
+        width: 130px;
+        border-radius: 200px;
+        margin-top: 30px;
+    }
+    .name{
+        font-size: 26px;
+    }
+    h1{
+        margin-top: 35px;
+        font-size: 24px;
+    }
+    .text{
+        padding: 1.4rem 1.1rem;
+        width: 244px;
+        height: 200px;
+        margin-top: 30px;
+    }
+    #img{
+        width: 270px;
+        height: 160px;
+    }
+    .item{
+        height: 40px;
+        width: 265px;
+    }
+    .langs img{
+        margin-top: 15px;
+        width: 120px;
+    }
+    .icon, .email{
+        height: 25px;
+        width: 25px;
+        border-radius: 30px;
+    }
+    .icon i, .email{
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+        font-size: 15px;
+        border-radius: 30px;
+    }
+    .icon span{
+        margin-right: 43px;
+        font-weight: 100;
+        line-height: 24px;
+        font-size: 15px;
+    }
+    .formulario{
+        padding: 1.4rem 1.1rem;
+        width: 100;
+        left: 50px;
+        margin-top: 30px;
+        font-size: 17px;
+    }
+}
+@media (max-width: 700px){
+    .imagem img{
+        width: 150px;
+        border-radius: 200px;
+        margin-top: 30px;
+    }
+    .text{
+        width: 380px;
+    }
+    .item{
+        width: 350px;
+    }
+    .langs img{
+        width: 165;
+    }
+    #img{
+        width: 330px;
+    }
+    .formulario{
+        padding: 2.3rem 1.7rem;
+        left: 10px;
+        font-size: 17px;
+    }
+}
+    
